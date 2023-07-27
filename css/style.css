@@ -223,13 +223,13 @@
     background-color: var(--primary-color);
     color: #fff;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: fixed;
     top: 0px;
-    padding: 0px 30px;
+    padding: 0px 0px;
     z-index: 2 !important;
     transition: 0.5s;
-    padding: 1.2rem 0rem 1.2rem 12rem;
+    padding: 1.2rem 0rem 1.2rem 2.2rem;
   }
 
   #main-nav .icon-div {
@@ -237,6 +237,9 @@
     height: 100%;
     display: flex;
     flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   .icon {
@@ -244,12 +247,10 @@
     width: 100%;
   }
 
-  #main-nav h1 {
-    margin: 0 20px;
-    margin-bottom: 0;
-    padding: 0.2rem 0 0.5rem;
+  #main-nav .icon-div h1 {
+    margin: 5px 15px;
     display: flex;
-    position: relative;
+    text-align: center;
   }
   
   #main-nav ul {
